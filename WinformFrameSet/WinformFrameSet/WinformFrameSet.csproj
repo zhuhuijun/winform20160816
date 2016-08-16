@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A5DC945D-8E63-4F4E-B946-8737D3E1C1DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinformFrameSet</RootNamespace>
+    <AssemblyName>WinformFrameSet</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>主程序.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyApplicationContent.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoftLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoftLogo.Designer.cs">
+      <DependentUpon>SoftLogo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SoftLogo.resx">
+      <DependentUpon>SoftLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\aa.png" />
+    <Content Include="Images\State0.ICO" />
+    <Content Include="Images\State1.ICO" />
+    <Content Include="Images\State2.ICO" />
+    <Content Include="Images\保存企业.png" />
+    <Content Include="Images\停止刷新.png" />
+    <Content Include="Images\停止监听.png" />
+    <Content Include="Images\单个企业.png" />
+    <Content Include="Images\历史记录.png" />
+    <Content Include="Images\开始监听.png" />
+    <Content Include="Images\所有企业.png" />
+    <Content Include="Images\手动统计.png" />
+    <Content Include="Images\数据转发16.ico" />
+    <Content Include="Images\数据转发32.ico" />
+    <Content Include="Images\数据采集16.ico" />
+    <Content Include="Images\数据采集32.ico" />
+    <Content Include="Images\清理页面.png" />
+    <Content Include="Images\继续刷新.png" />
+    <Content Include="Images\自动统计.png" />
+    <Content Include="Images\设置.png" />
+    <Content Include="Images\超标1.ico" />
+    <Content Include="Images\超标2.ico" />
+    <Content Include="Images\运行不正常.ico" />
+    <Content Include="Images\运行正常.ico" />
+    <Content Include="Images\配置管理.png" />
+    <Content Include="主程序.ico" />
+    <None Include="Resources\AutoStart.bmp" />
+    <Content Include="Resources\childNode.png" />
+    <Content Include="Resources\Close.png" />
+    <Content Include="Resources\ico_green.gif" />
+    <None Include="Resources\Image1.bmp" />
+    <Content Include="Resources\red.png" />
+    <Content Include="Resources\redgray.png" />
+    <Content Include="Resources\Show.png" />
+    <Content Include="Resources\toot.png" />
+    <Content Include="Resources\主程序.ico" />
+    <Content Include="Resources\数据解析启动.png" />
+    <Content Include="Resources\数据解析启动1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlHelper\ControlHelper.csproj">
+      <Project>{7290B46C-CA6F-45D3-A507-E7C694A3E2BA}</Project>
+      <Name>ControlHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils.Helper\Utils.Helper.csproj">
+      <Project>{EEF4B791-7B46-409B-987F-6326DC6CD073}</Project>
+      <Name>Utils.Helper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

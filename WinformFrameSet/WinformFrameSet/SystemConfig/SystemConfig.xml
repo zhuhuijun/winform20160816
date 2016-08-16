@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigModel>
+  <IsAutoListener>1</IsAutoListener>
+  <IsAutoAnalyzing>1</IsAutoAnalyzing>
+  <IsAutoRes>1</IsAutoRes>
+  <ContentClearCount>200</ContentClearCount>
+  <AutoAnalyzingTime>2</AutoAnalyzingTime>
+  <ListenerPort>1514</ListenerPort>
+  <MaxCount>200</MaxCount>
+  <IsSaveDataPackage>1</IsSaveDataPackage>
+  <LogPath>D:\YutuLog\Log</LogPath>
+  <OrienDataPath>D:\YutuLog\在线原始数据包</OrienDataPath>
+  <MsSql>server=127.0.0.1;database=DB_ZhouShan_DataBase;uid=sa;pwd=sa;</MsSql>
+  <DataImportTime>2</DataImportTime>
+  <GasRealTimeDataPath>D:\GasRealTimeData\Data</GasRealTimeDataPath>
+</ConfigModel>

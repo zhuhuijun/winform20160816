@@ -1,0 +1,8 @@
+E:\MyEffort\c#\WinformFrameSet\Utils.Helper\bin\Debug\Utils.Helper.dll
+E:\MyEffort\c#\WinformFrameSet\Utils.Helper\bin\Debug\Utils.Helper.pdb
+E:\MyEffort\c#\WinformFrameSet\Utils.Helper\obj\Debug\Utils.Helper.dll
+E:\MyEffort\c#\WinformFrameSet\Utils.Helper\obj\Debug\Utils.Helper.pdb
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\Utils.Helper\bin\Debug\Utils.Helper.dll
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\Utils.Helper\bin\Debug\Utils.Helper.pdb
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\Utils.Helper\obj\Debug\Utils.Helper.dll
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\Utils.Helper\obj\Debug\Utils.Helper.pdb

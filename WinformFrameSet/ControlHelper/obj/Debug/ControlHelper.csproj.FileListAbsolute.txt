@@ -1,0 +1,8 @@
+E:\MyEffort\c#\WinformFrameSet\ControlHelper\bin\Debug\ControlHelper.dll
+E:\MyEffort\c#\WinformFrameSet\ControlHelper\bin\Debug\ControlHelper.pdb
+E:\MyEffort\c#\WinformFrameSet\ControlHelper\obj\Debug\ControlHelper.dll
+E:\MyEffort\c#\WinformFrameSet\ControlHelper\obj\Debug\ControlHelper.pdb
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\ControlHelper\bin\Debug\ControlHelper.dll
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\ControlHelper\bin\Debug\ControlHelper.pdb
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\ControlHelper\obj\Debug\ControlHelper.dll
+E:\BaiduYunDownload\WinformFrameSet\WinformFrameSet\ControlHelper\obj\Debug\ControlHelper.pdb
